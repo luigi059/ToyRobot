@@ -75,9 +75,9 @@ public class Board
             case Direction.SOUTH:
                 return new Position(row, WrapCoordinate(col - 1));
             case Direction.EAST:
-                return new Position(WrapCoordinate(row + 1), col);
+                return new Position(row, WrapCoordinate(col + 1));
             case Direction.WEST:
-                return new Position(WrapCoordinate(row - 1), col);
+                return new Position(row, WrapCoordinate(col - 1));
             default:
                 return current;
         }
