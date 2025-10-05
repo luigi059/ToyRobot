@@ -1,0 +1,5 @@
+# Test Scenario 3: Edge wrapping
+PLACE_ROBOT 1,1,SOUTH
+MOVE
+REPORT
+# Expected output: 1,5,SOUTH

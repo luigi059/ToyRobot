@@ -1,0 +1,4 @@
+# Test Scenario 4: Invalid commands should be ignored
+PLACE_ROBOT 2,3,NORTH
+PLACE_ROBOT 2,3,CENTER
+PLACE_ROBOT

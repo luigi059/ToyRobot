@@ -7,8 +7,32 @@ class Program
     static void Main(string[] args)
     {
         var board = new Board();
+        // Read from file
+        if (args.Length > 0)
+        {
+            ProcessFile(args[0], board);
+        }
+        // Standard Input
+        else
+        {
+            ProcessInput(board);
+        }
+    }
 
-        ProcessInput(board);
+    static void ProcessFile(string filePath, Board board)
+    {
+        try
+        {
+            var lines = File.ReadAllLines(filePath);
+            foreach (var line in lines)
+            {
+                ProcessCommand(line, board);
+            }
+        }
+        catch (Exception ex)
+        {
+            System.Console.WriteLine($"Error reading file: {ex.Message}");
+        }
     }
 
     static void ProcessInput(Board board)

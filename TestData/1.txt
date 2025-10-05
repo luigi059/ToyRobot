@@ -1,0 +1,11 @@
+# Test Scenario 1: Complex movement with wall obstacle
+PLACE_ROBOT 3,3,NORTH
+PLACE_WALL 3,5
+MOVE
+MOVE
+RIGHT
+MOVE
+MOVE
+MOVE
+REPORT
+# Expected output: 1,4,EAST
