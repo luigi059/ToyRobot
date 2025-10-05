@@ -68,14 +68,19 @@ public class Board
     {
         var (row, col) = current;
 
-        return facing switch
+        switch (facing)
         {
-            Direction.NORTH => new Position(WrapCoordinate(row + 1), col),
-            Direction.SOUTH => new Position(WrapCoordinate(row - 1), col),
-            Direction.EAST => new Position(row, WrapCoordinate(col + 1)),
-            Direction.WEST => new Position(row, WrapCoordinate(col - 1)),
-            _ => current
-        };
+            case Direction.NORTH:
+                return new Position(row, WrapCoordinate(col + 1));
+            case Direction.SOUTH:
+                return new Position(row, WrapCoordinate(col - 1));
+            case Direction.EAST:
+                return new Position(WrapCoordinate(row + 1), col);
+            case Direction.WEST:
+                return new Position(WrapCoordinate(row - 1), col);
+            default:
+                return current;
+        }
     }
 
     private int WrapCoordinate(int coordinate)

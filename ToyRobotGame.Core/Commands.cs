@@ -119,6 +119,11 @@ public static class CommandParser
             return null;
         }
 
+        if (row < 1 || row > 5 || col < 1 || col > 5)
+        {
+            return null;
+        }
+
         return new PlaceRobotCommand(row, col, facing);
     }
 
