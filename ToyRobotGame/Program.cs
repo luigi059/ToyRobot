@@ -31,7 +31,7 @@ class Program
         }
         catch (Exception ex)
         {
-            System.Console.WriteLine($"Error reading file: {ex.Message}");
+            Console.WriteLine($"Error reading file: {ex.Message}");
         }
     }
 

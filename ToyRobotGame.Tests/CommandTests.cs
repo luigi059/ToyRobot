@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using ToyRobotGame.Core;
+﻿using ToyRobotGame.Core;
 
 namespace ToyRobotGame.Tests;
 
