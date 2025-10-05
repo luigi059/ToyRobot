@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotGame", "ToyRobotGame\ToyRobotGame.csproj", "{34735479-ABF1-4E74-97EA-C1932DD4FC2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotGame.Core", "ToyRobotGame.Core\ToyRobotGame.Core.csproj", "{BA50D948-4BED-41FF-AA9B-66F0FBB63352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotGame.Tests", "ToyRobotGame.Tests\ToyRobotGame.Tests.csproj", "{0C9B0022-F9FB-4323-A226-E506A6210177}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Debug|x64.Build.0 = Debug|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Debug|x86.Build.0 = Debug|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Release|x64.ActiveCfg = Release|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Release|x64.Build.0 = Release|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Release|x86.ActiveCfg = Release|Any CPU
+		{34735479-ABF1-4E74-97EA-C1932DD4FC2C}.Release|x86.Build.0 = Release|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Debug|x64.Build.0 = Debug|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Debug|x86.Build.0 = Debug|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Release|x64.ActiveCfg = Release|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Release|x64.Build.0 = Release|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Release|x86.ActiveCfg = Release|Any CPU
+		{BA50D948-4BED-41FF-AA9B-66F0FBB63352}.Release|x86.Build.0 = Release|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Debug|x64.Build.0 = Debug|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Debug|x86.Build.0 = Debug|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Release|x64.ActiveCfg = Release|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Release|x64.Build.0 = Release|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Release|x86.ActiveCfg = Release|Any CPU
+		{0C9B0022-F9FB-4323-A226-E506A6210177}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED266240-A686-4632-B738-60EA8C24D5F3}
+	EndGlobalSection
+EndGlobal
