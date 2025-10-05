@@ -1,8 +1,7 @@
-﻿namespace ToyRobotGame.Tests;
-
-using NUnit.Framework;
-using ToyRobotGame.Core;
+﻿using ToyRobotGame.Core;
 using ToyRobotGame.Core.Models;
+
+namespace ToyRobotGame.Tests;
 
 [TestFixture]
 public class BoardTests
