@@ -98,21 +98,21 @@ public class BoardTests
     }
 
     [Test]
-    public void Move_East_IncreasesCol()
+    public void Move_East_IncreasesRow()
     {
         board.PlaceRobot(2, 2, Direction.EAST);
         board.Move();
 
-        Assert.That(board.Report(), Is.EqualTo("2,3,EAST"));
+        Assert.That(board.Report(), Is.EqualTo("3,2,EAST"));
     }
 
     [Test]
-    public void Move_West_DecreasesCol()
+    public void Move_West_DecreasesRow()
     {
         board.PlaceRobot(2, 2, Direction.WEST);
         board.Move();
 
-        Assert.That(board.Report(), Is.EqualTo("2,1,WEST"));
+        Assert.That(board.Report(), Is.EqualTo("1,2,WEST"));
     }
 
     [Test]
@@ -139,13 +139,13 @@ public class BoardTests
         board.PlaceRobot(1, 1, Direction.WEST);
         board.Move();
 
-        Assert.That(board.Report(), Is.EqualTo("1,5,WEST"));
+        Assert.That(board.Report(), Is.EqualTo("5,1,WEST"));
     }
 
     [Test]
     public void Move_AtEastEdge_WrapsToWest()
     {
-        board.PlaceRobot(1, 5, Direction.EAST);
+        board.PlaceRobot(5, 1, Direction.EAST);
         board.Move();
 
         Assert.That(board.Report(), Is.EqualTo("1,1,EAST"));
